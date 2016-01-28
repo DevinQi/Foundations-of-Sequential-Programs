@@ -60,3 +60,19 @@ four step to link:
     * add the offset(previous program length) to each code value (for internal relation)
 
 * [Pseudocode](https://www.student.cs.uwaterloo.ca/~cs241/slides/link_algorithm.pdf)
+
+
+
+#### Static Linking vs. Dynamic Linking
+* Static linking example:
+  * assemble and link all code => one large executable and self-contained
+  * what we just did
+* Dynamic linking :
+  * do linking at examtion time
+    1. Create a string "helper1"
+    2. $1 point to the string
+    3. lis $29
+    4. .word binloarder
+    5. jalr $29
+  * binloader searches through the library to find helper1
+  * put address of helper1 into $3
