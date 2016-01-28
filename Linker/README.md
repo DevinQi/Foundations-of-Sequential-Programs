@@ -76,3 +76,6 @@ four step to link:
     5. jalr $29
   * binloader searches through the library to find helper1
   * put address of helper1 into $3
+
+#### Windows DLLs
+* **Dynamic Linked Library**
