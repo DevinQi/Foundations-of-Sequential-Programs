@@ -49,4 +49,27 @@ Context-Sensitive-Language > Contact free language > Regular Language > Finite l
 * context-sensitive analysis(semantic) analysis
 * synthesis (code generation)
 
-#####
+##### Regular Languages
+* Defining regular languages: two approache
+ 1. How to specify a regular language  => construction
+ 2. how to recognize a regular language
+* Specifying Regular Languages:
+ 1. finite languages
+ 2. union
+ 3. concatenation
+ 4. repetition
+* Union:
+ * Defination: 
+ * Example:  
+ T1 = {doge,cat}  
+ T2 = {red,blue,dog}  
+ Union{T1,T2} = {doge,cat,red,blue}   
+* Concatenation:
+ * Example:  
+ T1 = {dog,cat}
+ T2 = {fish,hah}
+ T1*T2 = {dogfish,doghah,catfish,cathah}
+* Repetition:
+ * Example:  
+ T1 = {dog,cat}
+ T1* = { ε ,dog,cat,dog,cat,catdog,catcat,dogdog,dogcatdog,.......}
