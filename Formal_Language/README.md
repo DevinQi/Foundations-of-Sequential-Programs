@@ -73,3 +73,25 @@ Context-Sensitive-Language > Contact free language > Regular Language > Finite l
  * Example:  
  T1 = {dog,cat}
  T1* = { ε ,dog,cat,dog,cat,catdog,catcat,dogdog,dogcatdog,.......}
+
+##### Recognizers: Finite Automata
+* **States** : describes what is true now
+* **Transitions** : if i am in state A and read input x move to state B
+* **Start State** 
+* **Final State** : aka accepting states, if after reading all input are in accepting state,then accept the input
+
+##### Observation About Finite Automata
+* ability to trace:
+ * picture: only every in one stage at a time
+* Transititons out of a state re unique(deterministic)
+* errors
+* size of language:
+* DFA M and language L(M)
+
+##### Forlmal Definition
+* finite alphabet
+* finite set of states
+* start state q0
+* set of final acceptng states 
+* transition function
+ 
