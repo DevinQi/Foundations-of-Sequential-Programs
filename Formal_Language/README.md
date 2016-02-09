@@ -94,4 +94,6 @@ Context-Sensitive-Language > Contact free language > Regular Language > Finite l
 * start state q0
 * set of final acceptng states 
 * transition function
+
+
  
