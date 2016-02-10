@@ -95,5 +95,16 @@ Context-Sensitive-Language > Contact free language > Regular Language > Finite l
 * set of final acceptng states 
 * transition function
 
+##### NFA
+* Defination:
+  * same as DFA with the following change: T = Q * ∑ -> 2(power Q)
+  * That is, we can be in a set of states, and thus is a relation instead of a function
 
- 
+##### Regular Expressions
+* Defined recursively: a regular expression(RE) is:
+ * 0,or
+ * c,or
+ * a
+ * E1E2 where E1 and E2 are REs - concatenation
+ * E1|E2 where E1 and E2 are REs - atteration(aka union)
+ * E* where E is a REs - repetition
